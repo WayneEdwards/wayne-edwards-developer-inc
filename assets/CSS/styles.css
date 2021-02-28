@@ -5,25 +5,73 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(136, 127, 255);
+    margin: 0 auto;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+/* Header / Nav Styles Start */
+
+header {
+    padding: 20px 35px;
+    margin: o auto;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
+    font-weight: bold;
     font-size: 48px;
 }
 
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+/* header */
+
+header {
+    background-color: red;
+}
+
+
+/* hero showcase */
+
+.hero {
+    background-color: green;
+}
+
+
+/* end hero shocase */
+
+
+/* content-projects */
+
+.content {
+    background-color: blue;
+}
+
+#run-buddy img {
+    width: 30%;
+    /* height: 50%; */
+}
+
+
+/* Contact Info footer */
+
+#footer-contact-info {
+    background-color: yellow;
 }
