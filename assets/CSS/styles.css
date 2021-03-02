@@ -11,9 +11,8 @@ body {
 }
 
 
-}
-
 /* Header / Nav Styles Start */
+
 header {
     padding: 20px 35px;
     margin: o auto;
@@ -23,17 +22,20 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 header h1 {
     display: inline-block;
     font-weight: bold;
     font-size: 48px;
 }
+
 header nav {
     margin: 7px 0;
     padding-top: 15px;
     margin-right: 20px;
     font-size: 20px;
 }
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -41,29 +43,38 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: normal;
     font-size: 3.0vw;
 }
 
+
 /* header */
+
 header {
     background-color: orange;
 }
 
+
 /* hero showcase */
+
 .hero {
     background-color: green;
 }
 
+
 /* end hero shocase */
 
-/* content-projects */
+
+/* content projects */
+
 .content {
     background-color: rgb(0, 225, 255);
     padding: 20px;
 }
+
 .content-projects {
     margin: 0 auto;
     padding: 50px;
@@ -71,43 +82,58 @@ header {
     border-bottom-right-radius: 14px;
     border-bottom-right-radius: 14px;
 }
+
 .content-projects p {
     font-size: large;
     font-weight: bold;
     color: palevioletred;
 }
+
 .run-buddy img {
     width: 30%;
     height: 30%;
 }
+
 .container {
     flex-direction: column;
 }
+
 .project-images {
     margin: auto;
     padding: 10px, 50px, 10px, 15px;
 }
 
+
+/* content projects end */
+
+
 /* Contact Info footer */
+
 .contact-info {
-    border: darkblue;
+    border: rgb(5, 6, 71);
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
 }
+
 .contact-me {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
 }
 
+
 }
 .contact-info h3 {
     font-style: oblique;
-    font-family: Verdana,
-    Geneva,
-    Tahoma,
-    sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 33, 97);
 }
-.social-media {
-    display: flex;
-    flex-wrap: wrap;
+.email,
+.facebook,
+.instagram,
+.twitter ul li {
+    flex: auto;
+    align-items: center;
 }
+
+/* end Contct Info footer */
