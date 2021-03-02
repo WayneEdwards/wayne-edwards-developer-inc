@@ -5,13 +5,15 @@
 }
 
 body {
-    background-color: rgb(136, 127, 255);
+    background-color: rgb(220, 219, 235);
     margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 
-/* Header / Nav Styles Start */
+}
 
+/* Header / Nav Styles Start */
 header {
     padding: 20px 35px;
     margin: o auto;
@@ -21,17 +23,17 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 header h1 {
     display: inline-block;
     font-weight: bold;
     font-size: 48px;
 }
-
 header nav {
     margin: 7px 0;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
 }
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -39,39 +41,73 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-
-
-/* header */
-
-header {
-    background-color: red;
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: normal;
+    font-size: 3.0vw;
 }
 
+/* header */
+header {
+    background-color: orange;
+}
 
 /* hero showcase */
-
 .hero {
     background-color: green;
 }
 
-
 /* end hero shocase */
 
-
 /* content-projects */
-
 .content {
-    background-color: blue;
+    background-color: rgb(0, 225, 255);
+    padding: 20px;
 }
-
-#run-buddy img {
+.content-projects {
+    margin: 0 auto;
+    padding: 50px;
+    border: paleturquoise;
+    border-bottom-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.content-projects p {
+    font-size: large;
+    font-weight: bold;
+    color: palevioletred;
+}
+.run-buddy img {
     width: 30%;
-    /* height: 50%; */
+    height: 30%;
 }
-
+.container {
+    flex-direction: column;
+}
+.project-images {
+    margin: auto;
+    padding: 10px, 50px, 10px, 15px;
+}
 
 /* Contact Info footer */
+.contact-info {
+    border: darkblue;
+    padding: 10px;
+    display: flex;
+}
+.contact-me {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
 
-#footer-contact-info {
-    background-color: yellow;
+}
+.contact-info h3 {
+    font-style: oblique;
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+}
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
 }
